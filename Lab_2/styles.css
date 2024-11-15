@@ -1,0 +1,90 @@
+
+
+body{
+    background: #353635;
+}
+
+.margin{
+    margin: 0 15%;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr 0.7fr;
+}
+
+header{
+    background:#2d2f33;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+}
+
+#talking{
+    background: #121212;
+    font-size: 10px;
+    font-family: Georgia;
+    color: antiquewhite;
+    right: 18%;
+    position: absolute;
+    padding: 5px 50px 5px 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+#my-proj{
+    color: whitesmoke;
+    font-family: Georgia;
+    font-size: 12px;
+}
+
+#my-name{
+    color: #86bdb1;
+}
+
+#about-me{
+    text-align: center;
+    align-content: center;
+}
+
+h2, h3, a{
+    font-family: Georgia;
+    font: weight 800px;
+}
+
+#about-section{   
+    background-color: white;
+}
+
+.project-grid{
+    display: grid;   
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.proj-card{
+    margin: 10px;
+    background-color: whitesmoke;
+    border: 1.2px solid silver;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#connect-section{
+    text-align: center;
+    align-content: center;
+}
+
+#footer-section{
+    background: white;
+    align-content: end;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
